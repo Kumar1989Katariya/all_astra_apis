@@ -4,14 +4,14 @@ const mappings = new DefaultTableMappings
 
 /** globally shared configuration values **/
 
-const baseURL = "https://<cluster_id_and_region>.apps.astra.datastax.com"
-const restURL = baseURL + "/api/rest"
-const gqlURL =  baseURL + "/api/graphql"
+const baseURL = "1727450a-d92a-421c-9d6c-09635101f646-europe-west1.db.astra.datastax.com"
+const restURL = baseURL + "https://1727450a-d92a-421c-9d6c-09635101f646-europe-west1.apps.astra.datastax.com/api/rest"
+const gqlURL =  baseURL + "https://1727450a-d92a-421c-9d6c-09635101f646-europe-west1.apps.astra.datastax.com/api/graphql"
 const secure_bundle_path = "/path/to/secure-connect-bundle.zip"
 
-const keyspace = "stuff"
-const username = "stuff_user"
-const password = "stuff_password"
+const keyspace = "Keyspacetest"
+const username = "Katarirv"
+const password = "Jetking@321"
 
 
 // this is consumed by the Mapper in utility.js
